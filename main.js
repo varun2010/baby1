@@ -51,5 +51,6 @@ function draw(){
             song.play();
             document.getElementById("status").innerHTML="Baby Not Found";
         }
+        baby="";
     }
 }
