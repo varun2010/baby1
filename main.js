@@ -45,6 +45,7 @@ function draw(){
             if(objects[i].label=="person"){
                 baby=true;
                 document.getElementById("status").innerHTML="Baby Found";
+                song.stop();
             }
         }
         if(baby==""){
